@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+    background-color: black;
+}
+
+.sidebar{
+    background-color: bla k;
+    width: 340px;
+    border-radius: 1rem;
+    color: white;
+    margin: 0.5rem;
+    margin-right: 0.25rem;
+}
+
+.menu{
+    background-color:#121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    color: white;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.player{
+    background-color:black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    background-color: #121212;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+}
+
+
+.search:hover{
+    opacity: 1;
+}
+
+.home{
+    line-height: 2.5rem;
+}
+
+.search{
+    line-height: 2.5rem;
+    opacity: 0.7;
+}
+
+.nav i{
+    font-size: 1.25rem;
+}
+
+.nav a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+
+.library{
+    height: 90%;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    background-color: #121212;
+}
+
+.top{
+    display: flex;
+    background-color: #121212;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+}
+
+.top img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.75rem;
+
+}
+
+
+.icon{
+    font-size: 1.25rem;
+    display: flex;
+}
+
+.icon i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icon i:hover{
+    opacity: 1;
+}
+
+.boxOne{
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    line-height: 1.5rem;
+    margin: 1.5rem 0.5rem;
+    background-color: #232323;
+    border-radius: 0.5rem;
+}
+
+.boxTwo{
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    line-height: 1.5rem;
+    margin: 1.5rem 0.5rem;
+    background-color: #232323;
+    border-radius: 0.5rem;
+}
+
+#para{
+    font-size: 1.25rem;
+    margin: 0px;
+}
+
+.btn{
+    color: black;
+    border-radius: 1.5rem;
+}
+
+.menu{
+    margin: 0.5rem 0.25rem;
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    z-index: 10;
+}
+
+
+
+.sidebadge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebadge button{
+    margin-right: 1rem;
+}
+
+.sidebadge i{
+    margin-right: 5px;
+    align-self: center;
+    justify-self: center;
+}
+
+@media(max-width:1000px){
+    #hide{
+        display: none;
+    }
+}
+
+.card{
+    background-color: #232323;
+    width: 150px;
+    border: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img{
+    width: 100%;
+    border: 0.5rem;
+}
+
+.card-title{
+color: white;
+font-weight: 600;
+}
+
+.card-info{
+color: white;
+font-size: 0.8rem;
+opacity: 0.5;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center';
+}
+
+.line{
+    width:90%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+
+
+
+
